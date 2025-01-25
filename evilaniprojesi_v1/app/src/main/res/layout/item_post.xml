@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#FFFFFF"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="16dp"
+    android:elevation="6dp">
+
+    <!-- Kullanıcı E-Posta -->
+<TextView
+android:id="@+id/userEmailText"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=""
+android:textStyle="bold"
+android:textColor="#616161"
+android:layout_marginBottom="8dp" />
+
+    <!-- Gönderi Resmi -->
+<ImageView
+android:id="@+id/postImage"
+android:layout_width="match_parent"
+android:layout_height="200dp"
+android:scaleType="centerCrop"
+android:contentDescription="Gönderi Resmi" />
+
+    <!-- Gönderi Başlığı -->
+<TextView
+android:id="@+id/postTitle"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text=""
+android:textStyle="bold"
+android:textSize="18sp"
+android:background="#FFF9C4"
+    android:padding="8dp"
+    android:textColor="#000000"
+    android:layout_marginTop="8dp" />
+
+    <!-- Gönderi Detayları -->
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:layout_marginTop="8dp"
+android:weightSum="4">
+
+<!-- Metrekare -->
+<TextView
+    android:id="@+id/areaText"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:background="#E3F2FD"
+    android:text=""
+    android:padding="8dp"
+    android:textColor="#1976D2"
+    android:textStyle="bold" />
+
+<!-- Oda Sayısı -->
+<TextView
+    android:id="@+id/roomCountText"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:background="#E8F5E9"
+    android:text=""
+    android:padding="8dp"
+    android:textColor="#388E3C"
+    android:textStyle="bold" />
+
+<!-- Fiyat -->
+<TextView
+    android:id="@+id/priceText"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:background="#FFF3E0"
+    android:text=""
+    android:padding="8dp"
+    android:textColor="#F57C00"
+    android:textStyle="bold" />
+
+<!-- Şehir -->
+<TextView
+    android:id="@+id/cityText"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:background="#F3E5F5"
+    android:text=""
+    android:padding="8dp"
+    android:textColor="#8E24AA"
+    android:textStyle="bold" />
+</LinearLayout>
+    </LinearLayout>

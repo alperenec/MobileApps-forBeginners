@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ev İlanı Projesi</string>
+    <string name="add_post">Gönderi Ekle</string>
+    <string name="logout">Çıkış</string>
+    <string name="app_title">Ev İlanı Projesi</string>
+    <string name="logo_description">Ev İlanı Projesi Logosu</string>
+    <string name="email_label">Kullanıcı Mail</string>
+    <string name="email_hint">E-Mail</string>
+    <string name="password_label">Şifre</string>
+    <string name="password_hint">Şifre</string>
+    <string name="register_button">Kayıt Ol</string>
+    <string name="login_button">Giriş Yap</string>
+</resources>

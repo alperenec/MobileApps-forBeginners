@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="Theme.Evilaniprojesi_v1" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Uygulama Teması -->
+        <item name="colorPrimary">#FFD600</item> <!-- Sarı -->
+        <item name="colorPrimaryVariant">#FFA000</item>
+        <item name="colorOnPrimary">#000000</item> <!-- Siyah Metin -->
+        <item name="android:textColorPrimary">#000000</item> <!-- AppBar başlık metni için siyah renk -->
+    </style>
+
+</resources>
