@@ -1,0 +1,45 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Öğrenci Adı" />
+
+    <EditText
+        android:id="@+id/editTextSoyad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Öğrenci Soyadı" />
+
+    <EditText
+        android:id="@+id/editTextNumara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Öğrenci No" />
+
+    <CheckBox
+        android:id="@+id/checkBoxDers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alttan Dersi Var mı?" />
+
+    <Button
+        android:id="@+id/buttonKaydet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kaydet"
+        android:layout_gravity="center" />
+
+    <ListView
+        android:id="@+id/listViewOgrenciler"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
