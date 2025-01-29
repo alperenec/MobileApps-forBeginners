@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Karışık Harfler -->
+    <TextView
+        android:id="@+id/scrambled_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Harfler"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <!-- Tahmin Girişi -->
+    <EditText
+        android:id="@+id/guess_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tahmininizi yazın"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Kontrol Et Butonu -->
+    <Button
+        android:id="@+id/check_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kontrol Et"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Puan -->
+    <TextView
+        android:id="@+id/score_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puan: 0"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <!-- Kapat Butonu -->
+    <Button
+        android:id="@+id/close_game_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kapat Oyunu"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

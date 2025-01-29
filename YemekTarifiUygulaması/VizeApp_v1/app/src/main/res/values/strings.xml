@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">VizeApp_v1</string>
+    <string name="dialog_title">Yeni Yemek Ekle</string>
+    <string name="hint_meal_name">Yemeğin Adı</string>
+    <string name="hint_meal_ingredients">Kullanılacak Malzemeler</string>
+    <string name="hint_meal_recipe">Tarif</string>
+    <string name="cancel_button">İPTAL</string>
+    <string name="save_button">KAYDET</string>
+
+</resources>

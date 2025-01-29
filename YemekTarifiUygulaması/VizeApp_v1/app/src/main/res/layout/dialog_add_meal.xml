@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Yemeğin Adı -->
+    <EditText
+        android:id="@+id/edit_meal_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_meal_name"
+        android:inputType="text"
+        android:autofillHints="name"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Kullanılacak Malzemeler -->
+    <EditText
+        android:id="@+id/edit_meal_ingredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_meal_ingredients"
+        android:inputType="textMultiLine"
+        android:autofillHints="text"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Tarif -->
+    <EditText
+        android:id="@+id/edit_meal_recipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_meal_recipe"
+        android:inputType="textMultiLine"
+        android:autofillHints="text"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
